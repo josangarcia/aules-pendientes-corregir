@@ -16,10 +16,15 @@ Solo se tienen en cuenta las tareas (no cuestionarios, foros, etc.).
 
 ## Instalación
 
-1. Abre `chrome://extensions`.
-2. Activa **Modo de desarrollador** (arriba a la derecha).
-3. Pulsa **Cargar descomprimida** y elige esta carpeta (`extensiones-aules`).
-4. Recarga la página del curso en Aules.
+1. Descarga la extensión: botón verde **Code** → **Download ZIP**, y descomprime el archivo.
+2. Abre `chrome://extensions`.
+3. Activa **Modo de desarrollador** (arriba a la derecha).
+4. Pulsa **Cargar descomprimida** y elige la carpeta descomprimida (la que contiene `manifest.json`).
+5. Recarga la página del curso en Aules.
+
+No borres ni muevas la carpeta después: Chrome carga la extensión desde ahí.
+
+Para actualizarla, descarga de nuevo el ZIP, sustituye la carpeta y pulsa el botón de recargar de la extensión en `chrome://extensions`.
 
 ## Cómo funciona
 

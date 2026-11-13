@@ -1,0 +1,52 @@
+.aules-pend {
+  flex-basis: 100%;
+  margin-top: 0.2rem;
+}
+
+.aules-pend a,
+.aules-pend a:hover,
+.aules-pend a:focus {
+  text-decoration: none;
+}
+
+/* Cargando */
+.aules-pend--loading a {
+  color: #6a737b;
+  opacity: 0.7;
+}
+
+/* Falta alguna por corregir: 🔴, sin fondo */
+.aules-pend--warn a,
+.aules-pend--warn a:hover,
+.aules-pend--warn a:focus {
+  color: inherit;
+}
+
+.aules-pend--warn a:hover {
+  text-decoration: underline;
+}
+
+/* No falta ninguna: check verde */
+.aules-pend--ok a {
+  color: #2e7d32;
+  font-weight: 600;
+}
+
+.aules-pend--ok a:hover {
+  text-decoration: underline;
+}
+
+.aules-pend-check {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.2em;
+  height: 1.2em;
+  border-radius: 50%;
+  background: #2e7d32;
+  color: #fff;
+  font-size: 0.85em;
+  font-weight: 700;
+  line-height: 1;
+  vertical-align: -0.1em;
+}

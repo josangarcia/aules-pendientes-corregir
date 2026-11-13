@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Aules · Pendientes de corregir",
+  "version": "1.0.0",
+  "description": "En la página de inicio de un curso de Aules, muestra bajo cada tarea cuántas entregas faltan por corregir.",
+  "host_permissions": ["https://aules.edu.gva.es/*"],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://aules.edu.gva.es/*/course/view.php*",
+        "https://aules.edu.gva.es/*/course/section.php*"
+      ],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
